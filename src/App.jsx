@@ -1,4 +1,7 @@
 import React from "react";
+import ProfileCard from "./components/ProfileCard";
+import CourseCard from "./components/CourseCard";
+import Counter from "./components/Counter";
 
 const technologies = ["react", "html", "js"];
 const students = [
@@ -7,14 +10,36 @@ const students = [
 ];
 function App() {
   return (
-    <div>
-      {technologies.map((technology) => (
-        <p key={technology}>{technology}</p>
-      ))}
-      {students.map((student) => (
-        <h1 key={student.id}>{student.name}</h1>
-      ))}
-    </div>
+    <>
+      <div>
+        <ProfileCard name={"Ardit"} age={"21"} city={"vushtrri"} />
+        <ProfileCard name={"Zana"} age={"19"} city={"vushtrri"} />
+        <ProfileCard name={"Xhenis"} age={"22"} city={"novosell"} />
+      </div>
+      <section>
+        <div>
+          <CourseCard
+            title={"React JS"}
+            instructor={"egzon"}
+            duration={"3 months"}
+            price={"$100"}
+          />
+          <CourseCard
+            title={" JS"}
+            instructor={"drenusha"}
+            duration={"2 months"}
+            price={"$130"}
+          />
+          <CourseCard
+            title={"Css"}
+            instructor={"korab"}
+            duration={"6 months"}
+            price={"$160"}
+          />
+        </div>
+      </section>
+      <Counter />
+    </>
   );
 }
 
