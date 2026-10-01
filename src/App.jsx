@@ -2,6 +2,8 @@ import React from "react";
 import ProfileCard from "./components/ProfileCard";
 import CourseCard from "./components/CourseCard";
 import Counter from "./components/Counter";
+import Post from "./components/Post";
+import StudentCard from "./components/StudentCard";
 
 const technologies = ["react", "html", "js"];
 const students = [
@@ -39,6 +41,12 @@ function App() {
         </div>
       </section>
       <Counter />
+      <Post />
+      <div>
+        <StudentCard name={"ardit"} course={"react"} />
+        <StudentCard name={"zana"} course={"html"} />
+        <StudentCard name={"hana"} course={"scss"} />
+      </div>
     </>
   );
 }
