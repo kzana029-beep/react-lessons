@@ -1,7 +1,17 @@
-function App() {
-  const [count, setCount] = useState(0);
+import React from "react";
+import "./App.css";
+import Header from "./components/Header";
+import MovieList from "./components/MovieList";
 
-  return <></>;
+function App() {
+  return (
+    <>
+      <div className="app">
+        <Header />
+        <MovieList/>
+      </div>
+    </>
+  );
 }
 
 export default App;
