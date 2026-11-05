@@ -1,9 +1,11 @@
 import React from 'react'
 
-function Butoni() {
+function Butoni({type, onClick}) {
   return (
     <div>
-        <button onClick={() => console.log('Submit clicked')}>register here</button>
+        <button type={type} onClick={onClick}>
+          register here
+        </button>
     </div>
   )
 }

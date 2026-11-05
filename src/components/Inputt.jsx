@@ -1,9 +1,9 @@
 import React from "react";
 
-function Inputt({ type, placeholder }) {
+function Inputt({ type, placeholder, value, onChange }) {
   return (
     <div>
-      <input type={type} placeholder={placeholder} />
+      <input type={type} placeholder={placeholder} value={value} onChange={onChange} />
     </div>
   );
 }
