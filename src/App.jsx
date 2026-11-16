@@ -1,7 +1,12 @@
-function App() {
-  const [count, setCount] = useState(0);
+import React from 'react'
+import Users from './pages/Users'
 
-  return <></>;
+function App() {
+  return (
+    <div>
+      <Users/>
+    </div>
+  )
 }
 
-export default App;
+export default App
