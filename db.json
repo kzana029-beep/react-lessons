@@ -1,15 +1,4 @@
 {
-  "users": [
-    {
-      "id": "1",
-      "name": "egzon",
-      "email": "egzonuka8@gmail.com"
-    },
-    {
-      "name": "zana",
-      "email": "zanakrasniqi27@gmail.com",
-      "id": "AagqrIYqMyc"
-    }
-  ],
+  "users": [],
   "$schema": "./node_modules/json-server/schema.json"
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Users from './pages/Users'
+import './App.css'
 
 function App() {
   return (
