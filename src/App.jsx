@@ -1,7 +1,11 @@
-function App() {
-  const [count, setCount] = useState(0);
+import React from 'react'
 
-  return <></>;
+function App() {
+  return (
+    <div className='bg-white '>
+
+    </div>
+  )
 }
 
-export default App;
+export default App
